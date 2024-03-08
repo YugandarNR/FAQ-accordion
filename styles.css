@@ -12,10 +12,19 @@ body {
   body {
     background-image: url("./assets/images/background-pattern-mobile.svg");
   }
+  h2 {
+    font-size: 0.9em;
+  }
+  p {
+    font-size: 0.8em;
+  }
 }
 @media (min-width: 376px) {
   body {
     background-image: url("./assets/images/background-pattern-desktop.svg");
+  }
+  h2 {
+    font-size: 1.15em;
   }
 }
 
@@ -26,17 +35,17 @@ body {
   width: 33em;
   padding: 2em;
 }
+h2 {
+  font-weight: 600;
+  color: hsl(292, 42%, 14%);
+}
 h1 {
   color: hsl(292, 42%, 14%);
   padding-left: 0.5em;
   font-size: 3em;
   font-weight: 700;
 }
-h2 {
-  font-size: 1.15em;
-  font-weight: 600;
-  color: hsl(292, 42%, 14%);
-}
+
 h2:hover {
   color: #b02cec;
   cursor: pointer;
